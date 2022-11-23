@@ -157,7 +157,7 @@ Using the `require` again we check if the vending machine balance in stock is en
 
 The final code of our contract should look like this:
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.11;
 
