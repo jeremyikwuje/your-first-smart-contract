@@ -228,7 +228,7 @@ To confirm, scroll up and copy the *account* address and paste it inside the `do
 ## Test your knowledge
 Try to restock the vending machine yourself. Remember the vending machine balance is now 99 no longer 100.
 
-Let me know in the comment section or on the article tweet if you are stuck.
+If you encounter any error or you are stuck for any reason, kindly  [open an issue](https://github.com/jeremyikwuje/your-first-smart-contract/issues). 
 
 ## Conclusion
 Congratulation! you have successfully created and deployed your first smart contract. You learned how to send and receive funds; work with mappings, address types and unsigned integers(uint).
