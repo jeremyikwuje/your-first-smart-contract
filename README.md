@@ -228,9 +228,11 @@ To confirm, scroll up and copy the *account* address and paste it inside the `do
 ## Test your knowledge
 Try to restock the vending machine yourself. Remember the vending machine balance is now 99 no longer 100.
 
-If you encounter any error or you are stuck for any reason, kindly  [open an issue](https://github.com/jeremyikwuje/your-first-smart-contract/issues). 
+If you encounter any error or you are stuck for any reason, kindly  [open an issue](https://github.com/jeremyikwuje/your-first-smart-contract/issues).
 
 ## Conclusion
 Congratulation! you have successfully created and deployed your first smart contract. You learned how to send and receive funds; work with mappings, address types and unsigned integers(uint).
+
+If you find this article valuable, kindly [retweet](https://twitter.com/jeremyikwuje/status/1595239069340127232?s=20&t=BBnAtSBGHxOXy51uWfMN3Q) so more people can find it.
 
 **Become a Web3/Blockchain engineer in 8 weeks. [Apply Now!](https://school.forward.africa?utm_source=your-first-smart-contract&utm_medium=github)**
