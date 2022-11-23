@@ -6,7 +6,7 @@ A smart contract is a computer program that runs on a blockchain. Just the way w
 ## Set up Remix
 Before we can write a smart contract, we will need a development environment. To make the process easier and faster, we will use Remix. Remix is a web-based code editor for building and deploying Ethereum smart contracts.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669044908821/gIoPAhv3P.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669044908821/gIoPAhv3P.png)
 
 Open a new browser tab and proceed to [remix.ethereum.com](https://remix.ethereum.org/).
 
@@ -18,7 +18,7 @@ The first thing we will do is to expand the folder called `contracts` on the lef
 
 Your Remix should look similar to the screenshot below.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669045060509/928orVfCV.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669045060509/928orVfCV.png)
 
 ## Define the contract
 When writing a smart contract, the first thing we want to do is to set our license identifier.
@@ -201,29 +201,29 @@ It's now time to deploy.
 ## Deploy the contract
 On the left side menu of Remix, navigate to the Solidity Compiler (the third icon). Select the right version of Solidity, in our case 0.8.17, and click the Compile button to compile the contract.
 
-![remix-solidity-compiler.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669161611726/uS-pO2X0o.png align="center")
+![remix-solidity-compiler.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669161611726/uS-pO2X0o.png)
 
 > If the compilation has an error, it will be displayed below the "Compile VendingMachine.sol" button. Kindly ensure you follow the code correctly.
 
 Once the compilation is successful, the next is to Deploy & run transactions. **Navigate to the next icon on the left menu (Deploy & run transactions). Select "Remix VM(London)" as the environment and click on Deploy**.
 
-![remix-deploy-run-transactions.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669161086049/sIrZ5GTmy.png align="center")
+![remix-deploy-run-transactions.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669161086049/sIrZ5GTmy.png)
 
 Below the "Deploy" button, in the "Deployed Contract" section, expand the contract. You will see a representation of all of the state variables and functions defined. Let's go ahead and start testing this out.
 
 First, let's get the vending machine balance by clicking on the `getVendingMachineBalance` representation. This will display 100 and if you remember we set this balance when we were defining the constructor.  You can also see the owner's address by clicking on the `owner` representation.
 
-![testing-each-deployed-contract.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669162349805/NiMJ3Mr9M.png align="center")
+![testing-each-deployed-contract.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669162349805/NiMJ3Mr9M.png)
 
 Next, let's try to purchase a donut. Enter 2 in the `purchase` representation and click on it. Oops! I forgot that will throw an error in the Remix console, remember we `require` that 2 ether will be charged per donut purchase. So scroll up a little bit and specify the amount of ether we want to pay for this transaction.
 
-![remix-deploy-pay-gas-fees.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669163672769/Fr2pj4l0b.png align="center")
+![remix-deploy-pay-gas-fees.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669163672769/Fr2pj4l0b.png)
 
 Scroll down and click the `purchase` representation, and wait for a few seconds, the purchase will be successful.
 
 To confirm, scroll up and copy the *account* address and paste it inside the `donutBalances` representation, click it and the balance (1) will show beneath. click `getVendingMachineBalance` to see if the balance is reduced to 99.
 
-![remix-copy-account-contract.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669164992729/XgC9lbbrg.png align="center")
+![remix-copy-account-contract.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669164992729/XgC9lbbrg.png)
 
 ## Test your knowledge
 Try to restock the vending machine yourself. Remember the vending machine balance is now 99 no longer 100.
